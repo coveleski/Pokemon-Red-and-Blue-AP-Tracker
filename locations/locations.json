@@ -296,7 +296,7 @@
             {
                 "name": "Mt Moon",
                 "access_rules": [
-                    "$mtmoon"
+                    "$past_pewter"
                 ],
                 "sections": [
                     {
@@ -365,7 +365,7 @@
             {
                 "name": "Route 4",
                 "access_rules": [
-                    "$mtmoon"
+                    "$past_pewter"
                 ],
                 "sections": [
                     {
