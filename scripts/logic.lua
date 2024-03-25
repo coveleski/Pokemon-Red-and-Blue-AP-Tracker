@@ -377,10 +377,10 @@ end
 function pewter()
     return (
         oldman() or flypewter() or (flycerulean() and cancut()) or (flyvermillion() and cancut())
-        or ((flylavender() or flyceladon()) and (guard() or (cancut() and canflash()) or (boulders() and pokeflute())))
-        or (flyfuchsia() and ((pokeflute() and (bike() or boulders())) or cansurf()) and (guard() or (cancut() and canflash()) or (boulders() and pokeflute())))
-        or (canstrength() and cansurf() and (guard() or (cancut() and canflash())))
-        or (flysaffron() and guard())
+        or ((flylavender() or flyceladon()) and (guard() or (cancut() and canflash()) or (boulders() and pokeflute())) and cancut())
+        or (flyfuchsia() and ((pokeflute() and (bike() or boulders())) or cansurf()) and (guard() or (cancut() and canflash()) or (boulders() and pokeflute())) and cancut())
+        or (canstrength() and cansurf() and cancut() and (guard() or canflash()))
+        or (flysaffron() and guard() and cancut())
     )
 end
 
@@ -390,17 +390,10 @@ function past_pewter()
             (has("rt3_open")) or
             (has("rt3_boulder") and has("boulder")) or
             (has("rt3_brock")) or
-            (has("rt3_badge") and (has("boulder") or has("cascade") or has("thunder") or has("rainbow") or has("soul") or has("marsh") or has("volcano") or has("earth"))) or
-            (has("rt3_gym"))
+            (has("rt3_badge") and badges()) or
+            (has("rt3_gym")) or
+			(cerulean() and (cansurf))
             )
-    )
-end
-
-function mtmoon()
-    return (
-        (past_pewter() or
-        (cerulean() and cansurf())
-        )
     )
 end
 
