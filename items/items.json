@@ -927,6 +927,31 @@
         ]
     },
     {
+        "name": "Dexsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+				"name": "Dexsanity - Off",
+                "img": "images/dexno.png",
+                "codes": "op_dexsanity,dexsanity_off"
+            },
+            {
+				"name": "Dexsanity - Area 1:1 Mapping",
+                "img": "images/pokedex.png",
+                "codes": "op_dexsanity,dexsanity_one",
+                "inherit_codes": false
+            },
+			{
+				"name": "Dexsanity - All Slots",
+				"img": "images/pokedex_done.png",
+                "codes": "op_dexsanity,dexsanity_ten",
+                "inherit_codes": false
+			}
+        ]
+    },	
+    {
         "name": "Trainersanity",
         "type": "progressive",
         "loop": true,
