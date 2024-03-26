@@ -1136,7 +1136,32 @@
                     {
                         "name": "Free Sample Man",
                         "item_count": 1
-                    }
+		    },
+					{
+						"name": "Pokémon",
+						"item_count": 2,
+						"chest_unopened_img": "images/pokedex.png",
+						"chest_opened_img": "images/pokedex_done.png",
+						"clear_as_group": false,
+						"visibility_rules": ["dexsanity_one"]
+					},
+					{
+						"name": "Pokémon",
+						"item_count": 10,
+						"chest_unopened_img": "images/pokedex.png",
+						"chest_opened_img": "images/pokedex_done.png",
+						"clear_as_group": false,
+						"visibility_rules": ["dexsanity_ten"]
+					},
+					{
+						"name": "Super Rod Pokémon",
+						"item_count": 2,
+						"chest_unopened_img": "images/superrod.png",
+						"chest_opened_img": "images/superrod_done.png",
+						"clear_as_group": false,
+						"access_rules": ["superrod"],
+						"visibility_rules": ["dexsanity_ten","dexsanity_one"]
+					},
                 ],
                 "map_locations": [
                     {
