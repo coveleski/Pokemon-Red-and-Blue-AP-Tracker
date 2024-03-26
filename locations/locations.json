@@ -4373,7 +4373,132 @@
                         "y": 368
                     }
                 ]
-            }
+            },
+	    {
+                "name": "Fishing Is Fun",
+                "access_rules": [""],
+                "sections": [
+                    {
+                        "name": "Old Rod (Any Spot)",
+                        "item_count": 1,
+                        "visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"chest_unopened_img": "images/oldrod.png",
+			"chest_opened_img": "images/oldrod_done.png",
+			"clear_as_group": false,
+			"access_rules": ["oldrod"]
+                    },
+		    {
+			"name": "Good Rod (Any Spot)",
+			"item_count": 2,
+			"chest_unopened_img": "images/goodrod.png",
+			"chest_opened_img": "images/goodrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["goodrod"]
+         	    },
+		    {
+			"name": "Super Rod (Pallet & Viridian)",
+			"item_count": 2,
+			"chest_unopened_img": "images/goodrod.png",
+			"chest_opened_img": "images/goodrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod"]
+         	    },
+		    {
+			"name": "Super Rod (Route 22)",
+			"item_count": 2,
+			"chest_unopened_img": "images/goodrod.png",
+			"chest_opened_img": "images/goodrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod"]
+         	    },
+		    {
+			"name": "Super Rod (Route 24/25/Cerulean/Cerulean Gym)",
+			"item_count": 3,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$cerulean"]
+         	    },
+		    {
+			"name": "Super Rod (Route 6/11/Vermillion/Dock)",
+			"item_count": 2,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$cerulean"]
+         	    },
+		    {
+			"name": "Super Rod (Route 10 & Celadon)",
+			"item_count": 2,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$celadon"]
+         	    },
+		    {
+			"name": "Super Rod (Safari Zone)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$safari,$fuchsia"]
+         	    },
+		    {
+			"name": "Super Rod (Route 12/13/17/18)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$lavender","superrod,$fuchsia",
+				"superrod,$celadonnoflash,[op_dark_rock_tunnel_on],pokeflute,$bike",
+                    		"superrod,$fuchsianoflash,[op_dark_rock_tunnel_on],$bike",
+                    		"superrod,$celadon,pokeflute,$bike",
+                    		"superrod,$fuchsia,$bike"]
+         	    },
+		    {
+			"name": "Super Rod (Route 19/20/21/Cinnabar/Seafoam Island)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$cinnabar"]
+         	    },
+		    {
+			"name": "Super Rod (Route 23 & Cerulean Cave)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$victoryroad","superrod,$ceruleancave,$cerulean,$cansurf"]
+         	    },
+		    {
+			"name": "Super Rod (Fuchsia)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$fuchsia"]
+         	    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 528,
+                        "y": 432
+                    }
+                ]
+            },
         ]
     }
 ]
