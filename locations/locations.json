@@ -2108,6 +2108,9 @@
             },
             {
                 "name": "Route 5",
+                "access_rules": [
+                    "$cerulean"
+                ],
                 "sections": [
 		    {
 			"name": "Pokémon 1:1",
@@ -2762,7 +2765,8 @@
 			"chest_unopened_img": "images/pokedex.png",
 			"chest_opened_img": "images/pokedex_done.png",
 			"clear_as_group": false,
-			"visibility_rules": ["dexsanity_one"]
+			"visibility_rules": ["dexsanity_one"],
+                        "access_rules": ["$celadonnoflash,[op_dark_rock_tunnel_on],$cancut","$celadon,$cancut"]
          	    },
 		    {
 			"name": "Pokémon",
@@ -2770,7 +2774,8 @@
 			"chest_unopened_img": "images/pokedex.png",
 			"chest_opened_img": "images/pokedex_done.png",
 			"clear_as_group": false,
-			"visibility_rules": ["dexsanity_ten"]
+			"visibility_rules": ["dexsanity_ten"],
+                        "access_rules": ["$celadonnoflash,[op_dark_rock_tunnel_on],$cancut","$celadon,$cancut"]
 		    }
                 ],
                 "map_locations": [
