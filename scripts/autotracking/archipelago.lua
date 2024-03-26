@@ -93,6 +93,16 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
+    if slot_data['route_3_condition'] then
+        local obj = Tracker:FindObjectForCode("rt3")
+        local stage = slot_data['route_3_condition']
+        if (stage >= 5) then
+            stage = 5
+        end
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
     if slot_data['extra_key_items'] then
         local obj = Tracker:FindObjectForCode("op_exk")
         if obj then
