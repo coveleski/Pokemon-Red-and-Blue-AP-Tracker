@@ -291,6 +291,12 @@ function onClear(slot_data)
                 obj.CurrentStage = slot_data['bicycle_gate_skips']
             end
         end
+        if slot_data['dark_rock_tunnel_logic'] then
+            local obj = Tracker.FindObjectForCode("op_dark_rock_tunnel")
+            if obj then
+                obj.CurrentStage = slot_data[dark_rock_tunnel_logic]
+            end
+        end
     end
 end
 
