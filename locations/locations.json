@@ -1136,7 +1136,23 @@
                     {
                         "name": "Free Sample Man",
                         "item_count": 1
-                    }
+		    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 2,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1168,7 +1184,8 @@
                         "name": "Gym Trainers",
                         "item_count": 8,
                         "access_rules": ["$viridiangym,$oldman","$viridiangym,$pewter"],
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Gym Item",
@@ -1209,7 +1226,23 @@
                     {
                         "name": "South Item",
                         "item_count": 1
-                    }
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1226,13 +1259,29 @@
                     "$vermillion"
                 ],
                 "sections": [
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 2,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
 
                 ],
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 0,
-                        "y": 0
+                        "x": 430,
+                        "y": 241
                     }
                 ]
             },
@@ -1257,7 +1306,23 @@
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
-                    }
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 5,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1300,8 +1365,25 @@
                     {
                         "name": "Bug Catchers",
                         "item_count": 3,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 5,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1325,7 +1407,8 @@
                     {
                         "name": "Gym Trainer",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Brock",
@@ -1347,8 +1430,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 8,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1392,7 +1492,8 @@
                     {
                         "name": "1F Trainers",
                         "item_count": 7,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "B2F North Item",
@@ -1417,8 +1518,57 @@
                     {
                         "name": "B2F Rockets",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "1F Pokémon 1:1",
+			"item_count": 4,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "B1F Pokémon 1:1",
+			"item_count": 4,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "B2F Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B2F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1449,8 +1599,25 @@
                         "name": "Cooltrainer F (Surf)",
                         "item_count": 1,
                         "access_rules": ["$cerulean,$cansurf"],
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1484,7 +1651,8 @@
                     {
                         "name": "Gym Trainers",
                         "item_count": 2,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Misty",
@@ -1514,8 +1682,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 6,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 5,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1553,8 +1738,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 9,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 7,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1584,8 +1786,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 9,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1611,8 +1830,25 @@
                     {
                         "name": "Jr. Trainer F",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1639,7 +1875,8 @@
                     {
                         "name": "Trainers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -1681,8 +1918,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 9,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 4,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1702,25 +1956,60 @@
                     {
                         "name": "3F Channelers",
                         "item_count": 3,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "3F North Item",
                         "item_count": 1
                     },
+		    {
+			"name": "3F Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "3F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
                     {
                         "name": "4F Channelers",
                         "item_count": 3,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "4F Items",
                         "item_count": 3
                     },
+		    {
+			"name": "4F Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "4F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
                     {
                         "name": "5F Channelers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "5F Near West Staircase Hidden",
@@ -1732,19 +2021,53 @@
                         "name": "5F Southwest Item",
                         "item_count": 1
                     },
+		    {
+			"name": "5F Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "5F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
                     {
                         "name": "6F Channelers",
                         "item_count": 3,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "6F Items",
                         "item_count": 2
                     },
+		    {
+			"name": "6F Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "6F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
                     {
                         "name": "7F Rockets",
                         "item_count": 3,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": [
                             "silphscope",
                             "op_pokedoll_skip_on,$celadon"
@@ -1757,7 +2080,23 @@
                             "silphscope",
                             "op_pokedoll_skip_on,$celadon"
                         ]
-                    }
+                    },
+		    {
+			"name": "7F Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "7F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1769,14 +2108,32 @@
             },
             {
                 "name": "Route 5",
+                "access_rules": [
+                    "$cerulean"
+                ],
                 "sections": [
-
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 0,
-                        "y": 0
+                        "x": 400,
+                        "y": 130
                     }
                 ]
             },
@@ -1805,12 +2162,14 @@
                     {
                         "name": "Dojo Blackbelts",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Gym Trainers",
                         "item_count": 7,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": ["silph"]
                     },
                     {
@@ -1866,8 +2225,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 6,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -1901,7 +2277,8 @@
                         "name": "Gym Trainers",
                         "item_count": 3,
                         "access_rules": ["$cansurf","$cancut"],
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Lt. Surge",
@@ -1934,7 +2311,8 @@
                     {
                         "name": "1F Trainers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "B1F Item 1",
@@ -1957,7 +2335,8 @@
                     {
                         "name": "B1F Trainers",
                         "item_count": 6,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "2F Item 1",
@@ -1974,12 +2353,14 @@
                     {
                         "name": "2F Trainers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "3F Trainers",
                         "item_count": 2,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -2003,8 +2384,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 10,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2080,7 +2478,8 @@
                     {
                         "name": "Trainers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -2111,7 +2510,8 @@
                     {
                         "name": "Trainers",
                         "item_count": 2,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Cuttable Tree Item",
@@ -2122,8 +2522,25 @@
                         "name": "Grass Fisherman",
                         "item_count": 1,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": ["$cancut"]
-                    }
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 3,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2227,7 +2644,8 @@
                         "name": "Gym Trainers",
                         "item_count": 7,
                         "access_rules": ["$cancut"],
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Erika",
@@ -2333,13 +2751,32 @@
                         "name": "Trainers",
                         "item_count": 6,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": ["$celadonnoflash,[op_dark_rock_tunnel_on],bike,pokeflute","$celadon,bike,pokeflute","$fuchsianoflash,[op_dark_rock_tunnel_on],bike","$fuchsia,bike"]
                     },
                     {
                         "name": "House Woman",
                         "item_count": 1,
                         "access_rules": ["$celadonnoflash,[op_dark_rock_tunnel_on],$cancut","$celadon,$cancut"]
-                    }
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 4,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"],
+                        "access_rules": ["$celadonnoflash,[op_dark_rock_tunnel_on],$cancut","$celadon,$cancut"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"],
+                        "access_rules": ["$celadonnoflash,[op_dark_rock_tunnel_on],$cancut","$celadon,$cancut"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2391,8 +2828,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 10,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 4,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2426,7 +2880,8 @@
                     {
                         "name": "Gym Trainers",
                         "item_count": 6,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Koga",
@@ -2450,6 +2905,22 @@
                         "item_count": 1,
                         "access_rules": ["$cansurf"]
                     },
+		    {
+			"name": "Center Zone Pokémon 1:1",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Center Zone Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
                     {
                         "name": "East Zone East Item",
                         "item_count": 1
@@ -2466,6 +2937,22 @@
                         "name": "East Zone Northeast Item",
                         "item_count": 1
                     },
+		    {
+			"name": "East Zone Pokémon 1:1",
+			"item_count": 9,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "East Zone Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
                     {
                         "name": "North Zone North Item",
                         "item_count": 1
@@ -2474,6 +2961,22 @@
                         "name": "North Zone Northeast Item",
                         "item_count": 1
                     },
+		    {
+			"name": "North Zone Pokémon 1:1",
+			"item_count": 9,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "North Zone Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
                     {
                         "name": "West Zone Northwest Item",
                         "item_count": 1
@@ -2499,7 +3002,23 @@
                     {
                         "name": "West Zone Southeast Item",
                         "item_count": 1
-                    }
+                    },
+		    {
+			"name": "West Zone Pokémon 1:1",
+			"item_count": 9,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "West Zone Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2529,14 +3048,32 @@
                     {
                         "name": "Trainers",
                         "item_count": 9,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Jr Trainer F behind Bush",
                         "item_count": 1,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": ["$cancut"]
-                    }
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 6,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2553,8 +3090,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 10,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 6,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2587,7 +3141,8 @@
                         "name": "Trainers",
                         "item_count": 7,
                         "access_rules": ["$fuchsianoflash,[op_dark_rock_tunnel_on]","$fuchsia"],
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "East Trainers",
@@ -2595,8 +3150,25 @@
                         "access_rules": ["$fuchsianoflash,[op_dark_rock_tunnel_on],$boulders","$fuchsianoflash,[op_dark_rock_tunnel_on],$cansurf","$lavendernoflash,[op_dark_rock_tunnel_on],$cansurf","$lavendernoflash,[op_dark_rock_tunnel_on],pokeflute",
                         "$fuchsia,$boulders","$fuchsia,$cansurf","$lavender,$cansurf","$lavender,pokeflute"
                         ],
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 5,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2611,23 +3183,103 @@
                 "access_rules": ["$cansurf"],
                 "sections": [
                     {
+			"name": "1F Pokémon 1:1",
+			"item_count": 8,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "B1F Pokémon 1:1",
+			"item_count": 7,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
                         "name": "B2F Rock Hidden",
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
+		    {
+			"name": "B2F Pokémon 1:1",
+			"item_count": 7,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B2F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
                     {
                         "name": "B3F Rock Hidden",
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
                     },
+		    {
+			"name": "B3F Pokémon 1:1",
+			"item_count": 6,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B3F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
                     {
                         "name": "B4F Corner Hidden",
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
-                    }
+                    },
+		    {
+			"name": "B4F Pokémon 1:1",
+			"item_count": 6,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B4F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2649,7 +3301,8 @@
                         "name": "Gym Trainers",
                         "item_count": 7,
                         "access_rules": ["secretkey"],
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Blaine",
@@ -2695,15 +3348,49 @@
                         "visibility_rules": ["op_exk_on"]
                     },
                     {
-                        "name": "1F Trainers",
-                        "item_count": 7,
-                        "visibility_rules": ["op_trn_on"]
-                    },
-                    {
                         "name": "B1F Trainers",
                         "item_count": 8,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "B1F Pokémon 1:1",
+			"item_count": 4,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+                    {
+                        "name": "1F Trainers",
+                        "item_count": 7,
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "B1F Pokémon 1:1",
+			"item_count": 4,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -2796,69 +3483,82 @@
                     {
                         "name": "2F Trainers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "3F Trainer",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "3F Scientist (Card Key)",
                         "item_count": 1,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": ["cardkey", "cardkey3f", "cardkey9f"]
                     },
                     {
                         "name": "4F Trainers",
                         "item_count": 3,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "5F Trainers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "6F Trainers",
                         "item_count": 3,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "7F Trainers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "8F Trainers",
                         "item_count": 3,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "9F Trainers",
                         "item_count": 2,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "9F Rocket (Card Key)",
                         "item_count": 1,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": ["cardkey", "cardkey9f", "cardkey3f", "progressive_cardkey:3"]
                     },
                     {
                         "name": "10F Trainers",
                         "item_count": 2,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "11F Rocket",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "11F Rocket (Card Key)",
                         "item_count": 1,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": ["cardkey", "cardkey3f", "progressive_cardkey:3"]
                     }
                 ],
@@ -2950,33 +3650,39 @@
                     {
                         "name": "B1F Rockets",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "B3F Rockets",
                         "item_count": 2,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "B4F Rocket",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "B2F Rocket",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "B4F Rockets (Lift Key)",
                         "item_count": 2,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": ["liftkey"]
                     },
                     {
                         "name": "B1F Rocket (Lift Key)",
                         "item_count": 1,
                         "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
                         "access_rules": ["liftkey"]
                     }
                 ],
@@ -3033,7 +3739,71 @@
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
-                    }
+                    },
+		    {
+			"name": "1F Pokémon 1:1",
+			"item_count": 6,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "2F Pokémon 1:1",
+			"item_count": 6,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "2F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "3F Pokémon 1:1",
+			"item_count": 6,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "3F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "B1F Pokémon 1:1",
+			"item_count": 7,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -3050,32 +3820,38 @@
                     {
                         "name": "3F Burglar",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "2F Burglar",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "3F Scientist",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "1F Scientist",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "B1F Burglar",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "B1F Scientist",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -3096,7 +3872,8 @@
                     {
                         "name": "Exterior Pokemaniac",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Southwest Item",
@@ -3134,7 +3911,23 @@
                         "item_count": 1,
                         "access_rules": ["itemfinder,$plant","op_if_off,$plant"],
                         "visibility_rules": ["op_hid_on"]
-                    }
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 5,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -3195,18 +3988,69 @@
                     {
                         "name": "1F Trainers",
                         "item_count": 2,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "2F Trainers",
                         "item_count": 5,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "3F Trainers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "1F Pokémon 1:1",
+			"item_count": 8,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "2F Pokémon 1:1",
+			"item_count": 9,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "2F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "3F Pokémon 1:1",
+			"item_count": 8,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "3F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -3223,22 +4067,26 @@
                     {
                         "name": "Lorelai",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Bruno",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Agatha",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Lance",
                         "item_count": 1,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
                     {
                         "name": "Become Champion",
@@ -3302,7 +4150,55 @@
                         "item_count": 1,
                         "access_rules": ["itemfinder","op_if_off"],
                         "visibility_rules": ["op_hid_on"]
-                    }
+                    },
+		    {
+			"name": "1F Pokémon 1:1",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "1F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "2F Pokémon 1:1",
+			"item_count": 9,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "2F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "B2F Pokémon 1:1",
+			"item_count": 8,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "B2F Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -3319,8 +4215,41 @@
                     {
                         "name": "Trainers",
                         "item_count": 9,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon (Grass) 1:1",
+			"item_count": 5,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon (Grass)",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    },
+		    {
+			"name": "Pokémon (Surf) 1:1",
+			"item_count": 1,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon (Surf)",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -3337,8 +4266,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 6,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 1,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -3355,7 +4301,8 @@
                     {
                         "name": "Trainers",
                         "item_count": 4,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     }
                 ],
                 "map_locations": [
@@ -3373,14 +4320,16 @@
                     {
                         "name": "Trainers",
                         "item_count": 2,
-                        "visibility_rules": ["op_trn_on"]
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
                     },
-					{
-						"name": "Trainers (Surf)",
-						"item_count": 8,
-						"visibility_rules": ["op_trn_on"],
-						"access_rules": ["$cansurf"]
-					}
+		    {
+			"name": "Trainers (Surf)",
+			"item_count": 8,
+			"visibility_rules": ["op_trn_on"],
+			"clear_as_group": false,
+			"access_rules": ["$cansurf"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -3397,8 +4346,25 @@
                     {
                         "name": "Trainers",
                         "item_count": 3,
-                        "visibility_rules": ["op_trn_on"]
-                    }
+                        "visibility_rules": ["op_trn_on"],
+			"clear_as_group": false
+                    },
+		    {
+			"name": "Pokémon 1:1",
+			"item_count": 4,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one"]
+         	    },
+		    {
+			"name": "Pokémon",
+			"item_count": 10,
+			"chest_unopened_img": "images/pokedex.png",
+			"chest_opened_img": "images/pokedex_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_ten"]
+		    }
                 ],
                 "map_locations": [
                     {
@@ -3407,7 +4373,132 @@
                         "y": 368
                     }
                 ]
-            }
+            },
+	    {
+                "name": "Fishing Is Fun",
+                "access_rules": [""],
+                "sections": [
+                    {
+                        "name": "Old Rod (Any Spot)",
+                        "item_count": 1,
+                        "visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"chest_unopened_img": "images/oldrod.png",
+			"chest_opened_img": "images/oldrod_done.png",
+			"clear_as_group": false,
+			"access_rules": ["oldrod"]
+                    },
+		    {
+			"name": "Good Rod (Any Spot)",
+			"item_count": 2,
+			"chest_unopened_img": "images/goodrod.png",
+			"chest_opened_img": "images/goodrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["goodrod"]
+         	    },
+		    {
+			"name": "Super Rod (Pallet & Viridian)",
+			"item_count": 2,
+			"chest_unopened_img": "images/goodrod.png",
+			"chest_opened_img": "images/goodrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod"]
+         	    },
+		    {
+			"name": "Super Rod (Route 22)",
+			"item_count": 2,
+			"chest_unopened_img": "images/goodrod.png",
+			"chest_opened_img": "images/goodrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod"]
+         	    },
+		    {
+			"name": "Super Rod (Route 24/25/Cerulean/Cerulean Gym)",
+			"item_count": 3,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$cerulean"]
+         	    },
+		    {
+			"name": "Super Rod (Route 6/11/Vermillion/Dock)",
+			"item_count": 2,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$cerulean"]
+         	    },
+		    {
+			"name": "Super Rod (Route 10 & Celadon)",
+			"item_count": 2,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$celadon"]
+         	    },
+		    {
+			"name": "Super Rod (Safari Zone)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$safari,$fuchsia"]
+         	    },
+		    {
+			"name": "Super Rod (Route 12/13/17/18)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$lavender","superrod,$fuchsia",
+				"superrod,$celadonnoflash,[op_dark_rock_tunnel_on],pokeflute,$bike",
+                    		"superrod,$fuchsianoflash,[op_dark_rock_tunnel_on],$bike",
+                    		"superrod,$celadon,pokeflute,$bike",
+                    		"superrod,$fuchsia,$bike"]
+         	    },
+		    {
+			"name": "Super Rod (Route 19/20/21/Cinnabar/Seafoam Island)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$cinnabar"]
+         	    },
+		    {
+			"name": "Super Rod (Route 23 & Cerulean Cave)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$victoryroad","superrod,$ceruleancave,$cerulean,$cansurf"]
+         	    },
+		    {
+			"name": "Super Rod (Fuchsia)",
+			"item_count": 4,
+			"chest_unopened_img": "images/superrod.png",
+			"chest_opened_img": "images/superrod_done.png",
+			"clear_as_group": false,
+			"visibility_rules": ["dexsanity_one","dexsanity_ten"],
+			"access_rules": ["superrod,$fuchsia"]
+         	    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 528,
+                        "y": 432
+                    }
+                ]
+            },
         ]
     }
 ]

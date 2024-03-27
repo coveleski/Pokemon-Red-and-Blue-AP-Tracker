@@ -395,7 +395,8 @@ function cerulean()
     return (
     rt3() or
     flycerulean() or
-    flyvermillion()
+    flyvermillion() or
+    (saffron() and guard())
     )
 end
 
