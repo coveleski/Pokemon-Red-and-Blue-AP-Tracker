@@ -56,6 +56,7 @@
                 "type": "itemgrid",
                 "h_alignment": "left",
                 "item_margin": "1,2",
+                "item_size": "80,80",
                 "rows": [
                     ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "caterpie"],
                     ["metapod", "butterfree", "weedle", "kakuna", "beedrill", "pidgey", "pidgeotto", "pidgeot", "rattata", "raticate"],
