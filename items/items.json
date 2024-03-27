@@ -1086,6 +1086,68 @@
         ]
     },
     {
+        "name": "Town Map Fly Freebie",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/fpallet.png",
+                "codes": "freeflymap,fly_pallet"
+            },
+            {
+                "img": "images/fviridian.png",
+                "codes": "freeflymap,fly_viridian",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fpewter.png",
+                "codes": "freeflymap,fly_pewter",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fcerulean.png",
+                "codes": "freeflymap,fly_cerulean",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/flavender.png",
+                "codes": "freeflymap,fly_lavender",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fvermillion.png",
+                "codes": "freeflymap,fly_vermillion",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fceladon.png",
+                "codes": "freeflymap,fly_celadon",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/ffuchsia.png",
+                "codes": "freeflymap,fly_fuchsia",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fcinnabar.png",
+                "codes": "freeflymap,fly_cinnabar",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/findigo.png",
+                "codes": "freeflymap,fly_indigo",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/fsaffron.png",
+                "codes": "freeflymap,fly_saffron",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Bulbasaur",
         "type": "toggle",
         "img": "images/pokedex/bulbasaur.png",

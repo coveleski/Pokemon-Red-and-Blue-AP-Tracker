@@ -139,6 +139,12 @@ function onClear(slot_data)
             obj.CurrentStage = slot_data['free_fly_map']
         end
     end
+    if slot_data['town_map_fly_map'] then
+        local obj = Tracker:FindObjectForCode("freeflymap")
+        if obj then
+            obj.CurrentStage = slot_data['town_map_fly_map']
+        end
+    end
 	if slot_data['elite_four_badges_condition'] then
 		local obj = Tracker:FindObjectForCode("elite4_badges")
 		if obj then
