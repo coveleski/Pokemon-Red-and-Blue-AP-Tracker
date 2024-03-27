@@ -933,22 +933,22 @@
         "allow_disabled": false,
         "stages": [
             {
-				"name": "Dexsanity - Off",
-                "img": "images/dexno.png",
+		"name": "Dexsanity - Off",
+                "img": "images/poke_gray.png",
                 "codes": "op_dexsanity,dexsanity_off"
             },
             {
-				"name": "Dexsanity - Area 1:1 Mapping",
-                "img": "images/pokedex.png",
+		"name": "Dexsanity - Area 1:1 Mapping",
+                "img": "images/poke.png",
                 "codes": "op_dexsanity,dexsanity_one",
                 "inherit_codes": false
             },
-			{
-				"name": "Dexsanity - All Slots",
-				"img": "images/pokedex_done.png",
+	    {
+		"name": "Dexsanity - All Slots",
+		"img": "images/great.png",
                 "codes": "op_dexsanity,dexsanity_ten",
                 "inherit_codes": false
-			}
+	    }
         ]
     },	
     {
