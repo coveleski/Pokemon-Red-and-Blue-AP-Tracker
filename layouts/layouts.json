@@ -40,7 +40,7 @@
                             "dock": "top",
                             "tabs": [
                                 {
-                                    "title": "Map",
+                                    "title": "Kanto",
                                     "icon": "images/map.png",
                                     "content": {
                                         "type": "map",
@@ -49,7 +49,7 @@
                                 },
                                 {
                                     "title": "Dexsanity",
-                                    "icon": "images/map.png",
+                                    "icon": "images/pokedex.png",
                                     "content": {
                                         "type": "layout",
                                         "key": "dex"
