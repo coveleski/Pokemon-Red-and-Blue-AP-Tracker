@@ -1,9 +1,9 @@
 ﻿{
-  "name": "Pokemon Red and Blue Randomizer AP Test",
+  "name": "Pokemon Red and Blue Archipelago Randomizer V2",
   "game_name": "Pokemon Red and Blue Versions",
-  "package_version": "1.2.1",
-  "package_uid": "pkmnrb_jim",
-  "author": "j_im",
+  "package_version": "2.0",
+  "package_uid": "ap_pkmnRB",
+  "author": "j_im & Coveleski & palex00",
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
