@@ -94,67 +94,67 @@
         "type": "consumable", 
         "max_quantity": 10,
         "initial_quantity": 0,
-        "img": "images/cardkey.png",
+        "img": "images/cardkeyprog.png",
         "codes": "cardkey_progressive"
     },
     {
         "name": "Card Key 2F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey2.png",
         "codes": "cardkey2f, split_cardkey"
     },
     {
         "name": "Card Key 3F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey3.png",
         "codes": "cardkey3f, split_cardkey"
     },
     {
         "name": "Card Key 4F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey4.png",
         "codes": "cardkey4f, split_cardkey"
     },
     {
         "name": "Card Key 5F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey5.png",
         "codes": "cardkey5f, split_cardkey"
     },
     {
         "name": "Card Key 6F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey6.png",
         "codes": "cardkey6f, split_cardkey"
     },
     {
         "name": "Card Key 7F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey7.png",
         "codes": "cardkey7f, split_cardkey"
     },
     {
         "name": "Card Key 8F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey8.png",
         "codes": "cardkey8f, split_cardkey"
     },
     {
         "name": "Card Key 9F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey9.png",
         "codes": "cardkey9f, split_cardkey"
     },
     {
         "name": "Card Key 10F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey10.png",
         "codes": "cardkey10f, split_cardkey"
     },
     {
         "name": "Card Key 11F",
         "type": "toggle",
-        "img": "images/cardkey.png",
+        "img": "images/cardkey11.png",
         "codes": "cardkey11f, split_cardkey"
     },
     {
