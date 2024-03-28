@@ -3,3 +3,6 @@
 options_ref.json
 todo.txt
 link.txt
+/images/testing/
+/images/old/
+.gitignore

@@ -1,0 +1,9 @@
+{
+    "cardkey": {
+        "type": "itemgrid",
+        "rows": [
+            ["cardkey2f", "cardkey3f", "cardkey4f", "cardkey5f", "cardkey6f"],
+            ["cardkey7f", "cardkey8f", "cardkey9f", "cardkey10f", "cardkey11f"]
+        ]
+    }
+}
