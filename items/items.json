@@ -95,7 +95,7 @@
         "max_quantity": 10,
         "initial_quantity": 0,
         "img": "images/cardkey.png",
-        "codes": "progressive_cardkey"
+        "codes": "cardkey_progressive"
     },
     {
         "name": "Card Key 2F",

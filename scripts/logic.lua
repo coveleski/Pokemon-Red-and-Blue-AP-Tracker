@@ -216,8 +216,8 @@ function key_items()
     if has("flash") then
         amt = amt + 1
     end
-    if has("progressive_cardkey") then
-        amt = amt + Tracker:ProviderCountForCode("progressive_cardkey")
+    if has("cardkey_progressive") then
+        amt = amt + Tracker:ProviderCountForCode("cardkey_progressive")
     end
     if has ("split_cardkey") then
         amt = amt + Tracker:ProviderCountForCode("split_cardkey")

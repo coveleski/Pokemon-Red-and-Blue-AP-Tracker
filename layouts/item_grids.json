@@ -16,7 +16,7 @@
                     ["cutex","flyex","surfex","strengthex","flashex","","pokemon","pokedex"],
                     ["cardkey2f", "cardkey3f", "cardkey4f", "cardkey5f", "cardkey6f"],
                     ["cardkey7f", "cardkey8f", "cardkey9f", "cardkey10f", "cardkey11f"],
-                    ["progressive_cardkey"],
+                    ["cardkey_progressive"],
                 
                     ["leafstone", "thunderstone", "waterstone", "firestone", "moonstone"]
                 ]
