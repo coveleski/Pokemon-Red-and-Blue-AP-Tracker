@@ -2653,7 +2653,7 @@
                         "access_rules": ["$cancut"]
                     },
 		    {
-			"name": "Evolution Stones",
+			"name": "Evolution Stones in Department Store",
 			"clear_as_groupe": true,
 			"visibility_rules": ["stonesanity_on"],
 			"hosted_item": "leafstone, thunderstone, waterstone, firestone",
