@@ -3376,7 +3376,7 @@
 			"clear_as_group": false
                     },
 		    {
-			"name": "B1F Pokémon 1:1",
+			"name": "1F Pokémon 1:1",
 			"item_count": 4,
 			"chest_unopened_img": "images/pokedex.png",
 			"chest_opened_img": "images/pokedex_done.png",
@@ -3384,7 +3384,7 @@
 			"visibility_rules": ["dexsanity_one"]
          	    },
 		    {
-			"name": "B1F Pokémon",
+			"name": "1F Pokémon",
 			"item_count": 10,
 			"chest_unopened_img": "images/pokedex.png",
 			"chest_opened_img": "images/pokedex_done.png",
