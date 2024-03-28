@@ -2651,7 +2651,13 @@
                         "name": "Erika",
                         "item_count": 2,
                         "access_rules": ["$cancut"]
-                    }
+                    },
+		    {
+			"name": "Evolution Stones",
+			"clear_as_groupe": true,
+			"visibility_rules": ["stonesanity_on"],
+			"hosted_item": "leafstone, thunderstone, waterstone, firestone",
+		    }
                 ],
                 "map_locations": [
                     {
