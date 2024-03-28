@@ -52,11 +52,11 @@
     },     "dex": {
         "type": "array",
         "orientation": "vertical",
+        "background": "#212121",
         "content": [
             {
                 "type": "itemgrid",
                 "h_alignment": "left",
-                "item_margin": "1,2",
                 "item_size": "50,50",
                 "rows": [
                     ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "caterpie"],
@@ -73,7 +73,9 @@
                     ["rhyhorn", "rhydon", "chansey", "tangela", "kangaskhan", "horsea", "seadra", "goldeen", "seaking", "staryu"],
                     ["starmie", "mrmime", "scyther", "jynx", "electabuzz", "magmar", "pinsir", "tauros", "magikarp", "gyarados"],
                     ["lapras", "ditto", "eevee", "vaporeon", "jolteon", "flareon", "porygon", "omanyte", "omastar", "kabuto"],
-                    ["kabutops", "aerodactyl", "snorlax", "articuno", "zapdos", "moltres", "dratini", "dragonair", "dragonite", "mewtwo", "mew"]
+                    ["kabutops", "aerodactyl", "snorlax", "articuno", "zapdos", "moltres", "dratini", "dragonair", "dragonite", "mewtwo"],
+                    ["mew"],
+                    ["","","","","","","","","","pokemon"]
                 ]
             }
         ]

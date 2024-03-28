@@ -13,6 +13,7 @@ end
 Tracker:AddLayouts("layouts/item_grids.json")
 Tracker:AddLayouts("layouts/layouts.json")
 Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/dex.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
 if PopVersion and PopVersion >= "0.18.0" then

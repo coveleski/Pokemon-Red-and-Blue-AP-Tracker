@@ -46,14 +46,6 @@
                                         "type": "map",
                                         "maps": ["map"]
                                     }
-                                },
-                                {
-                                    "title": "Dexsanity",
-                                    "icon": "images/pokedex.png",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "dex"
-                                    }
                                 }
                             ]
                         }
