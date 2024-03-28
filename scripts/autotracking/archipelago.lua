@@ -308,7 +308,7 @@ function onClear(slot_data)
             end
         end
         if slot_data['dark_rock_tunnel_logic'] then
-            local obj = Tracker.FindObjectForCode("op_dark_rock_tunnel")
+            local obj = Tracker:FindObjectForCode("op_dark_rock_tunnel")
             if obj then
                 obj.CurrentStage = slot_data[dark_rock_tunnel_logic]
             end
