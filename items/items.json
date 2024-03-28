@@ -849,12 +849,14 @@
         "allow_disabled": false,
         "stages": [
             {
-                "img": "images/stonesanity.png",
+		"name": "Stonesanity - Off",
+                "img": "images/waterstone.png",
 		"img_mods": "@disabled",
                 "codes": "stonesanity,stonesanity_off"
             },
             {
-                "img": "images/stonesanity.png",
+		"name": "Stonesanity - On",
+                "img": "images/waterstone.png",
                 "codes": "stonesanity,stonesanity_on",
                 "inherit_codes": false
             }
