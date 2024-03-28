@@ -843,6 +843,26 @@
         ]
     },
     {
+        "name": "Stonesanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+		"name": "Stonesanity - Off",
+                "img": "images/waterstone.png",
+		"img_mods": "@disabled",
+                "codes": "stonesanity,stonesanity_off"
+            },
+            {
+		"name": "Stonesanity - On",
+                "img": "images/waterstone.png",
+                "codes": "stonesanity,stonesanity_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Tea",
         "type": "progressive",
         "loop": true,

@@ -225,6 +225,12 @@ function onClear(slot_data)
             obj.CurrentStage = slot_data['prizesanity']
         end
     end
+    if slot_data['stonesanity'] then
+        local obj = Tracker:FindObjectForCode("stonesanity")
+        if obj then
+            obj.CurrentStage = slot_data['stonesanity']
+        end
+    end
     if slot_data['extra_badges'] then
         local hm
         local badge

@@ -57,7 +57,7 @@
                     ["elite4_badges","victoryroad","viridian","cerulean"],
                     ["op_if","op_hid","op_hm","op_man", "op_dex", "op_fos"],
                     ["op_tea","op_exk","op_bldr","op_prize", "op_trn", "op_dexsanity"],
-                    ["op_bike_skips", "op_pokedoll_skip", "op_dark_rock_tunnel"]
+                    ["op_bike_skips", "op_pokedoll_skip", "op_dark_rock_tunnel","stonesanity"]
                 ]
             }, 
             {
