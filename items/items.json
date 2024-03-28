@@ -775,6 +775,33 @@
         ]
     },
     {
+        "name": "Card Key Op",
+        "type": "progressive",
+        "codes": "op_cardkey",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/cardkey.png",
+                "codes": "op_cardkey, op_cardkey_off",
+                "inherit_codes": false,
+                "name": "Split Card Key Off"
+            },
+            {
+                "img": "images/cardkey.png",
+                "codes": "op_cardkey, op_cardkey_split",
+                "inherit_codes": false,
+                "name": "Split Card Key On"
+            },
+            {
+                "img": "images/cardkey.png",
+                "codes": "op_cardkey, op_cardkey_prog",
+                "inherit_codes": false,
+                "name": "Progressive Card Key On"
+            }
+
+        ]
+    },
+    {
         "name": "HM Mode",
         "type": "progressive",
         "loop": true,
@@ -1054,7 +1081,7 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/fvermillion.png",
+                "img": "images/fvermilion.png",
                 "codes": "freefly,fly_vermillion",
                 "inherit_codes": false
             },
@@ -1092,56 +1119,56 @@
         "loop": true,
         "stages": [
             {
-                "img": "images/fpallet.png",
+                "img": "images/mpallet.png",
                 "codes": "freeflymap,fly_pallet"
             },
             {
-                "img": "images/fviridian.png",
+                "img": "images/mviridian.png",
                 "codes": "freeflymap,fly_viridian",
                 "inherit_codes": false
             },
             {
-                "img": "images/fpewter.png",
+                "img": "images/mpewter.png",
                 "codes": "freeflymap,fly_pewter",
                 "inherit_codes": false
             },
             {
-                "img": "images/fcerulean.png",
+                "img": "images/mcerulean.png",
                 "codes": "freeflymap,fly_cerulean",
                 "inherit_codes": false
             },
             {
-                "img": "images/flavender.png",
+                "img": "images/mlavender.png",
                 "codes": "freeflymap,fly_lavender",
                 "inherit_codes": false
             },
             {
-                "img": "images/fvermillion.png",
+                "img": "images/mvermilion.png",
                 "codes": "freeflymap,fly_vermillion",
                 "inherit_codes": false
             },
             {
-                "img": "images/fceladon.png",
+                "img": "images/mceladon.png",
                 "codes": "freeflymap,fly_celadon",
                 "inherit_codes": false
             },
             {
-                "img": "images/ffuchsia.png",
+                "img": "images/mfuchsia.png",
                 "codes": "freeflymap,fly_fuchsia",
                 "inherit_codes": false
             },
             {
-                "img": "images/fcinnabar.png",
+                "img": "images/mcinnabar.png",
                 "codes": "freeflymap,fly_cinnabar",
                 "inherit_codes": false
             },
             {
-                "img": "images/findigo.png",
+                "img": "images/mindigo.png",
                 "codes": "freeflymap,fly_indigo",
                 "inherit_codes": false
             },
             {
-                "img": "images/fsaffron.png",
+                "img": "images/msaffron.png",
                 "codes": "freeflymap,fly_saffron",
                 "inherit_codes": false
             }
@@ -1902,5 +1929,385 @@
         "type": "toggle",
         "img": "images/pokedex/mew.png",
         "codes": "dexsanity, mew"
+    },     {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4b_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4p_digit1",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4p_digit2",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4p_digit3",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4k_digit1",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "e4k_digit2",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "ccaveB_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "ccaveK_digit1",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "ccaveK_digit2",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            },
+            {
+                "img": "/images/d9.png"
+            }
+
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "toggle",
+        "img": "images/poke.png",
+        "codes": "dex_req",
+        "initial_active_state": "true"
+    },      {
+        "name": "",
+        "type": "toggle",
+        "img": "images/rainbow.png",
+        "codes": "badge_req",
+        "initial_active_state": "true"
+    },
+    {
+        "name": "",
+        "type": "toggle",
+        "img": "images/mansionkey.png",
+        "codes": "key_req",
+        "initial_active_state": "true"
     }
 ]

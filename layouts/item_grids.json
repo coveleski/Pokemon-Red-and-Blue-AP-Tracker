@@ -14,11 +14,32 @@
                     ["boulder","cascade","thunder","rainbow","soul","marsh","volcano","earth"],
                     ["hm01","hm02","hm03","hm04","hm05","fuji","silph","champ"],
                     ["cutex","flyex","surfex","strengthex","flashex","","pokemon","pokedex"],
-                    ["cardkey2f", "cardkey3f", "cardkey4f", "cardkey5f", "cardkey6f"],
-                    ["cardkey7f", "cardkey8f", "cardkey9f", "cardkey10f", "cardkey11f"],
-                    ["cardkey_progressive"],
-                
+                    ["cardkey_progressive", "op_cardkey"],
                     ["leafstone", "thunderstone", "waterstone", "firestone", "moonstone"]
+                ]
+            }, {
+                "type": "layout",
+                "key": "cardkey"
+            }
+        ]
+    },
+    "item_grid_wide": {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "left",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "rows": [
+                    ["parcel","map","bike","voucher","itemfinder","silphscope","coincase","pokeflute", "oldrod","goodrod","superrod","tea","goldteeth","oldamber","dome","helix"],
+                    ["ssticket","liftkey","cardkey","secretkey","plantkey","mansionkey","hideoutkey","safaripass"],"leafstone", "thunderstone", "waterstone", "firestone", "moonstone",
+                    ["boulder","cascade","thunder","rainbow","soul","marsh","volcano","earth"],
+                    ["hm01","hm02","hm03","hm04","hm05", "", "", "","fuji","silph","champ"],
+                    ["cutex","flyex","surfex","strengthex","flashex","","pokemon","pokedex"],
+                    ["cardkey_progressive","cardkey2f", "cardkey3f", "cardkey4f", "cardkey5f", "cardkey6f", "cardkey7f", "cardkey8f", "cardkey9f", "cardkey10f", "cardkey11f"]
+                    
                 ]
             }
         ]
@@ -29,25 +50,65 @@
         "content": [
             {
                 "type": "itemgrid",
-                "background": "#313131",
                 "item_size": 32,
-                "h_alignment": "center",
+                "h_alignment": "left",
                 "rows": [
                     ["aide2","aide11","aide15","rt3"],
                     ["elite4_badges","victoryroad","viridian","cerulean"],
-                    ["op_if","op_hid","op_hm","op_man"],
-                    ["op_tea","op_exk","op_bldr","op_prize"],
-                    ["op_trn","op_fos","op_dex","op_dexsanity"],
+                    ["op_if","op_hid","op_hm","op_man", "op_dex", "op_fos"],
+                    ["op_tea","op_exk","op_bldr","op_prize", "op_trn", "op_dexsanity"],
                     ["op_bike_skips", "op_pokedoll_skip", "op_dark_rock_tunnel"]
+                ]
+            }, 
+            {
+                "type": "group",
+                "header": "Free Fly",
+                "content": [
+                    {
+
+                        "type": "item",
+                        "item": "freefly",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                        
+                    },
+                    {
+        
+                        "type": "item",
+                        "item": "freeflymap",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                        
+                    }
                 ]
             },
             {
-                "type": "itemgrid",
-                "background": "#313131",
-                "item_size": 200,
-                "rows": [["freefly"]]
+                
+                    "type":"text",
+                    "text": "Elite 4 Requirements"
+                },
+                {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["badge_req","e4b_digit","","","key_req","e4k_digit1","e4k_digit2"],
+                        ["dex_req","e4p_digit1", "e4p_digit2","e4p_digit3"]
+                    ]
+                },
+                {
+                    "type":"text",
+                    "text": "Cerulean Cave Requirements"
+                },
+                {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [["badge_req","ccaveB_digit","","","key_req","ccaveK_digit1","ccaveK_digit2"]]
+                
             }
-            
         ]
     },     "dex": {
         "type": "array",

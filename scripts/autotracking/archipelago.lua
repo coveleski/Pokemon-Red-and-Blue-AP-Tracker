@@ -61,6 +61,12 @@ function onClear(slot_data)
         return
     end
 
+    if slot_data['split_card_key'] then
+        local obj = Tracker:FindObjectForCode("op_cardkey")
+        if obj then
+            obj.CurrentStage = slot_data['split_card_key']
+        end
+    end
     if slot_data['second_fossil_check_condition'] then
         local obj = Tracker:FindObjectForCode("op_fos")
         if obj then
@@ -146,22 +152,40 @@ function onClear(slot_data)
         end
     end
 	if slot_data['elite_four_badges_condition'] then
-		local obj = Tracker:FindObjectForCode("elite4_badges")
-		if obj then
-			obj.AcquiredCount = slot_data['elite_four_badges_condition']
-		end
+        local obj = Tracker:FindObjectForCode("e4b_digit")
+        obj.CurrentStage = slot_data["elite_four_badges_condition"]
+		-- local obj = Tracker:FindObjectForCode("elite4_badges")
+		-- if obj then
+		-- 	obj.AcquiredCount = slot_data['elite_four_badges_condition']
+		-- end
 	end
     if slot_data['elite_four_key_items_condition'] then
-		local obj = Tracker:FindObjectForCode("elite4_key_items")
-		if obj then
-			obj.AcquiredCount = slot_data['elite_four_key_items_condition']
-		end
+		local tens = Tracker:FindObjectForCode("e4k_digit1")
+        local ones = Tracker:FindObjectForCode("e4k_digit2")
+        local val = slot_data['elite_four_key_items_condition'] 
+        if tens and ones then
+            tens.CurrentStage = val // 10
+            ones.CurrentStage = val % 10
+        end
+		-- if obj then
+		-- 	obj.AcquiredCount = slot_data['elite_four_key_items_condition']
+		-- end
 	end
     if slot_data['elite_four_pokedex_condition'] then
-		local obj = Tracker:FindObjectForCode("elite4_pokedex")
-		if obj then
-			obj.AcquiredCount = slot_data['elite_four_pokedex_condition']
-		end
+        local hunds = Tracker:FindObjectForCode("e4p_digit1")
+        local tens = Tracker:FindObjectForCode("e4p_digit2")
+        local ones = Tracker:FindObjectForCode("e4p_digit3")
+        local val = slot_data['elite_four_pokedex_condition'] 
+        if hunds and tens and ones then
+            hunds.CurrentStage = val // 100
+            tens.CurrentStage = val % 100 // 10
+            ones.CurrentStage = val % 10
+        end
+           
+		-- local obj = Tracker:FindObjectForCode("elite4_pokedex")
+		-- if obj then
+		-- 	obj.AcquiredCount = slot_data['elite_four_pokedex_condition']
+		-- end
 	end
 	if slot_data['victory_road_condition'] then
 		local obj = Tracker:FindObjectForCode("victoryroad")
@@ -176,16 +200,24 @@ function onClear(slot_data)
 		end
 	end
 	if slot_data['cerulean_cave_badges_condition'] then
-		local obj = Tracker:FindObjectForCode("cerulean_badges")
-		if obj then
-			obj.AcquiredCount = slot_data['cerulean_cave_badges_condition']
-		end
+		local obj = Tracker:FindObjectForCode("ccaveB_digit")
+        obj.CurrentStage = slot_data["cerulean_cave_badges_condition"]
+		-- if obj then
+		-- 	obj.AcquiredCount = slot_data['cerulean_cave_badges_condition']
+		-- end
 	end
     if slot_data['cerulean_cave_key_items_condition'] then
-		local obj = Tracker:FindObjectForCode("cerulean_badges")
-		if obj then
-            obj.AcquiredCount = slot_data['cerulean_cave_key_items_condition']
-		end
+        local tens = Tracker:FindObjectForCode("ccaveK_digit1")
+        local ones = Tracker:FindObjectForCode("ccaveK_digit2")
+        local val = slot_data['cerulean_cave_key_items_condition'] 
+        if tens and ones then
+            tens.CurrentStage = val // 10
+            ones.CurrentStage = val % 10
+        end
+		-- local obj = Tracker:FindObjectForCode("cerulean_badges")
+		-- if obj then
+        --     obj.AcquiredCount = slot_data['cerulean_cave_key_items_condition']
+		-- end
 	end
     if slot_data['prizesanity'] then
         local obj = Tracker:FindObjectForCode("op_prize")
