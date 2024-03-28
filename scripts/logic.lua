@@ -375,25 +375,32 @@ function flyindigo()
 end
 
 function pewter()
-    return oldman() or flypewter() or cancut()
+    return oldman() or flypewter() or cancut()  or (cerulean_no_rt3() and cansurf())
 end
 
 function rt3()
     return (
-        pewter() and (
+        (pewter() and (
             has("rt3_open") 
             or (has("rt3_boulder") and has("boulder"))
             or has("rt3_brock")
             or (has("rt3_badge") and has("badge"))
-            or has("rt3_gym")
-            or cerulean() and cansurf()
-            )
+            or has("rt3_gym")))
+    	    or cerulean_no_rt3()
     )
 end
 
 function cerulean()
     return (
     rt3() or
+    flycerulean() or
+    flyvermillion() or
+    (saffron() and guard())
+    )
+end
+
+function cerulean_no_rt3()
+    return (
     flycerulean() or
     flyvermillion() or
     (saffron() and guard())
