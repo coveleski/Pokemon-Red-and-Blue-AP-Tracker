@@ -3411,12 +3411,12 @@
                     {
                         "name": "3F Item (Card Key)",
                         "item_count": 1,
-                        "access_rules": ["cardkey", "cardkey3f", "cardkey9f","progressive_cardkey:2"]
+                        "access_rules": ["cardkey", "cardkey3f", "cardkey9f","cardkey_progressive:2"]
                     },
                     {
                         "name": "4F Card Key Items",
                         "item_count": 3,
-                        "access_rules": ["cardkey", "cardkey4f", "progressive_cardkey:3"]
+                        "access_rules": ["cardkey", "cardkey4f", "cardkey_progressive:3"]
                     },
                     {
                         "name": "5F Pot Plant Hidden",
@@ -3431,12 +3431,12 @@
                     {
                         "name": "5F Northwest Item (Card Key)",
                         "item_count": 1,
-                        "access_rules": ["cardkey", "cardkey5f", "progressive_cardkey:4"]
+                        "access_rules": ["cardkey", "cardkey5f", "cardkey_progressive:4"]
                     },
                     {
                         "name": "6F Card Key Items",
                         "item_count": 2,
-                        "access_rules": ["cardkey", "cardkey6f", "progressive_cardkey:5"]
+                        "access_rules": ["cardkey", "cardkey6f", "cardkey_progressive:5"]
                     },
                     {
                         "name": "7F West Item",
@@ -3445,12 +3445,12 @@
                     {
                         "name": "7F East Item (Card Key)",
                         "item_count": 1,
-                        "access_rules": ["cardkey", "cardkey7f", "progressive_cardkey:6"]
+                        "access_rules": ["cardkey", "cardkey7f", "cardkey_progressive:6"]
                     },
                     {
                         "name": "9F Nurse Bed (Card Key) Hidden",
                         "item_count": 1,
-                        "access_rules": ["itemfinder,cardkey","op_if_off,cardkey", "op_if_off,cardkey9f", "op_if_off,progressive_cardkey:2"],
+                        "access_rules": ["itemfinder,cardkey","op_if_off,cardkey", "op_if_off,cardkey9f", "itemfinder,cardkey9f", "op_if_off,cardkey_progressive:2","itemfinder,cardkey_progressive:2"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
@@ -3460,11 +3460,11 @@
                     {
                         "name": "11F Silph Co President",
                         "item_count": 1,
-                        "access_rules": ["cardkey", "cardkey3f,cardkey11f", "progressive_cardkey:10"]
+                        "access_rules": ["cardkey", "cardkey3f,cardkey11f", "cardkey_progressive:10"]
                     },
                     {
                         "name": "Liberate Silph Co",
-                        "access_rules": ["cardkey", "cardkey3f,cardkey11f", "progressive_cardkey:10"],
+                        "access_rules": ["cardkey", "cardkey3f,cardkey11f", "cardkey_progressive:10"],
                         "hosted_item": "silph"
                     }
                 ],
