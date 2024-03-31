@@ -795,19 +795,19 @@
                 "img": "images/cardcycle.png",
                 "codes": "op_cardkey, op_cardkey_off",
                 "inherit_codes": false,
-                "name": "Split Card Key Off"
+                "name": "Vanilla Card Key"
             },
             {
                 "img": "images/cardcycle.png",
                 "codes": "op_cardkey, op_cardkey_split",
                 "inherit_codes": false,
-                "name": "Split Card Key On"
+                "name": "Split Card Key"
             },
             {
                 "img": "images/cardcycle.png",
                 "codes": "op_cardkey, op_cardkey_prog",
                 "inherit_codes": false,
-                "name": "Progressive Card Key On"
+                "name": "Progressive Card Key"
             }
 
         ]
