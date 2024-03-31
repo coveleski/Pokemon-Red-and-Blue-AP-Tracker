@@ -12,10 +12,9 @@
                     ["oldrod","goodrod","superrod","tea","goldteeth","oldamber","dome","helix"],
                     ["ssticket","liftkey","cardkey","secretkey","plantkey","mansionkey","hideoutkey","safaripass"],
                     ["boulder","cascade","thunder","rainbow","soul","marsh","volcano","earth"],
-                    ["hm01","hm02","hm03","hm04","hm05","fuji","silph","champ"],
+                    ["hm01","hm02","hm03","hm04","hm05","","fuji","silph"],
                     ["cutex","flyex","surfex","strengthex","flashex","","pokemon","pokedex"],
-                    ["cardkey_progressive", "op_cardkey"],
-                    ["leafstone", "thunderstone", "waterstone", "firestone", "moonstone"]
+                    ["cardkey_progressive", "op_cardkey", "", "leafstone", "thunderstone", "waterstone", "firestone", "moonstone"]
                 ]
             }, {
                 "type": "layout",
@@ -48,42 +47,59 @@
         "type": "array",
         "orientation": "vertical",
         "content": [
+		           {
+                
+                    "type":"text",
+                    "text": "Pokédex-related"
+                },
             {
                 "type": "itemgrid",
                 "item_size": 32,
                 "h_alignment": "left",
                 "rows": [
-                    ["aide2","aide11","aide15","rt3"],
-                    ["elite4_badges","victoryroad","viridian","cerulean"],
-                    ["op_if","op_hid","op_hm","op_man", "op_dex", "op_fos"],
-                    ["op_tea","op_exk","op_bldr","op_prize", "op_trn", "op_dexsanity"],
-                    ["op_bike_skips", "op_pokedoll_skip", "op_dark_rock_tunnel","stonesanity"]
-                ]
-            }, 
-            {
-                "type": "group",
-                "header": "Free Fly",
-                "content": [
-                    {
-
-                        "type": "item",
-                        "item": "freefly",
-                        "v_alignment": "top",
-                        "h_alignment": "center",
-                        "item_size": "305,40"
-                        
-                    },
-                    {
-        
-                        "type": "item",
-                        "item": "freeflymap",
-                        "v_alignment": "top",
-                        "h_alignment": "center",
-                        "item_size": "305,40"
-                        
-                    }
+                    ["aide2","aide11","aide15", "op_dex", "op_fos"]
                 ]
             },
+           {
+                
+                    "type":"text",
+                    "text": "Roadblocks"
+                },
+                {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+					["rt3", "op_man", "op_bldr", "op_hm", "op_tea"]
+                    ]
+                },
+           {
+                
+                    "type":"text",
+                    "text": "Pool-Increasers"
+                },
+                {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+					["op_hid", "op_exk", "op_prize", "op_trn", "op_dexsanity", "stonesanity"]
+                    ]
+                },
+           {
+                
+                    "type":"text",
+                    "text": "Logic Implications"
+                },
+                {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+					["op_if", "op_bike_skips", "op_pokedoll_skip", "op_dark_rock_tunnel"]
+                    ]
+                },							
+
             {
                 
                     "type":"text",
@@ -108,6 +124,30 @@
                     "h_alignment": "left",
                     "rows": [["badge_req","ccaveB_digit","","","key_req","ccaveK_digit1","ccaveK_digit2"]]
                 
+            },
+            {
+                "type": "group",
+                "header": "Free Fly",
+                "content": [
+                    {
+
+                        "type": "item",
+                        "item": "freefly",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                        
+                    },
+                    {
+        
+                        "type": "item",
+                        "item": "freeflymap",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                        
+                    }
+                ]
             }
         ]
     },     "dex": {
@@ -135,8 +175,7 @@
                     ["starmie", "mrmime", "scyther", "jynx", "electabuzz", "magmar", "pinsir", "tauros", "magikarp", "gyarados"],
                     ["lapras", "ditto", "eevee", "vaporeon", "jolteon", "flareon", "porygon", "omanyte", "omastar", "kabuto"],
                     ["kabutops", "aerodactyl", "snorlax", "articuno", "zapdos", "moltres", "dratini", "dragonair", "dragonite", "mewtwo"],
-                    ["mew"],
-                    ["","","","","","","","","","pokemon"]
+                    ["mew","","","","","","","","","","pokemon"]
                 ]
             }
         ]
