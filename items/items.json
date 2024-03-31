@@ -799,15 +799,15 @@
             },
             {
                 "img": "images/cardcycle.png",
-                "codes": "op_cardkey, op_cardkey_split",
-                "inherit_codes": false,
-                "name": "Split Card Key"
-            },
-            {
-                "img": "images/cardcycle.png",
                 "codes": "op_cardkey, op_cardkey_prog",
                 "inherit_codes": false,
                 "name": "Progressive Card Key"
+            },
+		    {
+                "img": "images/cardcycle.png",
+                "codes": "op_cardkey, op_cardkey_split",
+                "inherit_codes": false,
+                "name": "Split Card Key"
             }
 
         ]
