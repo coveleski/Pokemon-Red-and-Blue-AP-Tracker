@@ -69,6 +69,7 @@ function onClear(slot_data)
                 tmp = 1
             else if tmp == 1 then
                 tmp = 2
+            end
             obj.CurrentStage = tmp
         end
     end
