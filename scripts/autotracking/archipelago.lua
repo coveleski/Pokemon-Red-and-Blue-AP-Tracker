@@ -67,8 +67,9 @@ function onClear(slot_data)
             tmp = slot_data['split_card_key']
             if tmp == 2 then
                 tmp = 1
-            else if tmp == 1 then
+            elseif tmp == 1 then
                 tmp = 2
+            end
             obj.CurrentStage = tmp
         end
     end
@@ -76,6 +77,18 @@ function onClear(slot_data)
         local obj = Tracker:FindObjectForCode("op_fos")
         if obj then
             obj.AcquiredCount = slot_data['second_fossil_check_condition']
+        end
+    end
+    if slot_data['route_22_gate_condition'] then
+        local obj = Tracker:FindObjectForCode("rt22_digit")
+        if obj then
+            obj.CurrentState = slot_data['route_22_gate_condition']
+        end
+    end
+    if slot_data['victory_road_condition'] then
+        local obj = Tracker:FindObjectForCode("vr_digit")
+        if obj then
+            obj.CurrentState = slot_data['victory_road_condition']
         end
     end
     if slot_data['require_item_finder'] then
