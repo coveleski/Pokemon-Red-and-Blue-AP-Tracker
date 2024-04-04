@@ -76,14 +76,14 @@
            {
                 
                     "type":"text",
-                    "text": "Pool-Increasers"
+                    "text": "Pool-Size Changes"
                 },
                 {
                     "type": "itemgrid",
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-					["op_hid", "op_exk", "op_prize", "op_trn", "op_dexsanity", "stonesanity"]
+					["op_hid", "op_exk", "op_prize", "op_trn", "op_dexsanity", "stonesanity", "op_keyonly"]
                     ]
                 },
            {
@@ -98,11 +98,7 @@
                     "rows": [
 					["op_if", "op_bike_skips", "op_pokedoll_skip", "op_dark_rock_tunnel"]
                     ]
-                }, {
-                    "type":"itemgrid",
-                    "orientation": "vertical",
-                    "rows": [["rt22", "badge_req", "rt22_digit", "", "vr", "badge_req", "vr_digit"]]
-                },						
+                },							
 
             {
                 
