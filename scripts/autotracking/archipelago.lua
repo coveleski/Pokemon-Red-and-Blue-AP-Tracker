@@ -7,6 +7,11 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
+    -- Print out the contents of slot_data for debugging purposes
+    print("Contents of slot_data:")
+    for key, value in pairs(slot_data) do
+        print(key, value)
+    end
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
@@ -67,28 +72,17 @@ function onClear(slot_data)
             tmp = slot_data['split_card_key']
             if tmp == 2 then
                 tmp = 1
-            elseif tmp == 1 then
+            else if tmp == 1 then
                 tmp = 2
-            end
             obj.CurrentStage = tmp
         end
     end
+	end
+	end
     if slot_data['second_fossil_check_condition'] then
         local obj = Tracker:FindObjectForCode("op_fos")
         if obj then
             obj.AcquiredCount = slot_data['second_fossil_check_condition']
-        end
-    end
-    if slot_data['route_22_gate_condition'] then
-        local obj = Tracker:FindObjectForCode("rt22_digit")
-        if obj then
-            obj.CurrentState = slot_data['route_22_gate_condition']
-        end
-    end
-    if slot_data['victory_road_condition'] then
-        local obj = Tracker:FindObjectForCode("vr_digit")
-        if obj then
-            obj.CurrentState = slot_data['victory_road_condition']
         end
     end
     if slot_data['require_item_finder'] then
@@ -247,6 +241,12 @@ function onClear(slot_data)
         local obj = Tracker:FindObjectForCode("stonesanity")
         if obj then
             obj.CurrentStage = slot_data['stonesanity']
+        end
+    end
+    if slot_data['key_items_only'] then
+        local obj = Tracker:FindObjectForCode("op_keyonly")
+        if obj then
+            obj.CurrentStage = slot_data['key_items_only']
         end
     end
     if slot_data['extra_badges'] then
