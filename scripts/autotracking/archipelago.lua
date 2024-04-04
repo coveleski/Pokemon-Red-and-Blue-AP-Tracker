@@ -64,7 +64,12 @@ function onClear(slot_data)
     if slot_data['split_card_key'] then
         local obj = Tracker:FindObjectForCode("op_cardkey")
         if obj then
-            obj.CurrentStage = slot_data['split_card_key']
+            tmp = slot_data['split_card_key']
+            if tmp == 2 then
+                tmp = 1
+            else if tmp == 1 then
+                tmp = 2
+            obj.CurrentStage = tmp
         end
     end
     if slot_data['second_fossil_check_condition'] then
