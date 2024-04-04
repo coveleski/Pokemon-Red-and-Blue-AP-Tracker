@@ -79,6 +79,18 @@ function onClear(slot_data)
             obj.AcquiredCount = slot_data['second_fossil_check_condition']
         end
     end
+    if slot_data['route_22_gate_condition'] then
+        local obj = Tracker:FindObjectForCode("rt22_digit")
+        if obj then
+            obj.CurrentState = slot_data['route_22_gate_condition']
+        end
+    end
+    if slot_data['victory_road_condition'] then
+        local obj = Tracker:FindObjectForCode("vr_digit")
+        if obj then
+            obj.CurrentState = slot_data['victory_road_condition']
+        end
+    end
     if slot_data['require_item_finder'] then
         local obj = Tracker:FindObjectForCode("op_if")
         if obj then

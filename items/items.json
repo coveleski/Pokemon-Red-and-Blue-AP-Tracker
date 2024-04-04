@@ -2024,6 +2024,94 @@
 
         ]
 
+    },     
+         {
+        "name": "",
+        "type": "toggle",
+        "codes": "vr",
+        "allow_disabled": false,
+        "img": "/images/vr.png"
+
+    },         {
+        "name": "",
+        "type": "toggle",
+        "codes": "rt22",
+        "allow_disabled": false,
+        "img": "/images/rt22.png"
+
+    },      {
+        "name": "",
+        "type": "progressive",
+        "codes": "rt22_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "vr_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+
+        ]
+
     },
     {
         "name": "",

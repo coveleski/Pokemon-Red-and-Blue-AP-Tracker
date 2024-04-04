@@ -98,7 +98,11 @@
                     "rows": [
 					["op_if", "op_bike_skips", "op_pokedoll_skip", "op_dark_rock_tunnel"]
                     ]
-                },							
+                }, {
+                    "type":"itemgrid",
+                    "orientation": "vertical",
+                    "rows": [["rt22", "badge_req", "rt22_digit", "", "vr", "badge_req", "vr_digit"]]
+                },						
 
             {
                 
