@@ -67,7 +67,7 @@ function onClear(slot_data)
             tmp = slot_data['split_card_key']
             if tmp == 2 then
                 tmp = 1
-            else if tmp == 1 then
+            elseif tmp == 1 then
                 tmp = 2
             end
             obj.CurrentStage = tmp
