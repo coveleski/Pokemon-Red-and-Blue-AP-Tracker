@@ -3,7 +3,10 @@ local has_map = not variant:find("itemsonly")
 
 
 function split_key()
-  Tracker:AddLayouts("layouts/split_cardkey.json")
+  obj =  Tracker:FindObjectForCode('op_cardkey_split')
+  if obj.CurrentStage == 2 then
+    Tracker:AddLayouts("layouts/split_cardkey.json")
+  end
 end
 
 Tracker:AddItems("items/items.json")
