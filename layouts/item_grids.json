@@ -98,7 +98,31 @@
                     "rows": [
 					["op_if", "op_bike_skips", "op_pokedoll_skip", "op_dark_rock_tunnel"]
                     ]
-                }
+                },
+                {
+                "type": "group",
+                "header": "Free Fly",
+                "content": [
+                    {
+
+                        "type": "item",
+                        "item": "freefly",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                        
+                    },
+                    {
+        
+                        "type": "item",
+                        "item": "freeflymap",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                        
+                    }
+                ]
+            }
                 ]
     },     "dex": {
         "type": "array",
@@ -138,6 +162,19 @@
         "content": [
             {
                 "type": "group",
+                "header": "Viridian Gym",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["vg_req","badge_req","vg_digit",""]
+                    ]
+                }
+            },
+            {
+                "type": "group",
                 "header": "Victory Road Requirements",
                 "dock": "top",
                 "content":                 {
@@ -145,8 +182,8 @@
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-                        ["rt22_req","badge_req","rt22_digit"],
-                        ["vr_req", "badge_req","vr_digit"]
+                        ["rt22_req","badge_req","rt22_digit","",
+                        "vr_req", "badge_req","vr_digit",""]
                     ]
                 }
             },
@@ -159,8 +196,8 @@
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-                        ["badge_req","e4b_digit","","","key_req","e4k_digit1","e4k_digit2"],
-                        ["dex_req","e4p_digit1", "e4p_digit2","e4p_digit3"]
+                        ["badge_req","e4b_digit","","key_req","e4k_digit1","e4k_digit2",
+                        "","dex_req","e4p_digit1", "e4p_digit2","e4p_digit3",""]
                     ]
                 
                 }
@@ -173,34 +210,10 @@
                         "type": "itemgrid",
                         "orientation": "vertical",
                         "h_alignment": "left",
-                        "rows": [["badge_req","ccaveB_digit","","","key_req","ccaveK_digit1","ccaveK_digit2"]]
+                        "rows": [["badge_req","ccaveB_digit","","key_req","ccaveK_digit1","ccaveK_digit2"]]
                     
                     }
-                },
-                {
-                "type": "group",
-                "header": "Free Fly",
-                "content": [
-                    {
-
-                        "type": "item",
-                        "item": "freefly",
-                        "v_alignment": "top",
-                        "h_alignment": "center",
-                        "item_size": "305,40"
-                        
-                    },
-                    {
-        
-                        "type": "item",
-                        "item": "freeflymap",
-                        "v_alignment": "top",
-                        "h_alignment": "center",
-                        "item_size": "305,40"
-                        
-                    }
-                ]
-            }
+                }
         
         ]
     }
