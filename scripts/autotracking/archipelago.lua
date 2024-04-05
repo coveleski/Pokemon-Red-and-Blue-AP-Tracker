@@ -442,16 +442,17 @@ function onLocation(location_id, location_name)
         print(string.format("called onLocation: %s, %s", location_id, location_name))
     end
     local v = LOCATION_MAPPING[location_id]
+    if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("onLocation: could not find location mapping for id %s", location_id))
+    end
+    if not v[1] then
+        return
+    end
     for _,w in ipairs(v) do
-        if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onLocation: could not find location mapping for id %s", location_id))
-        end
-        if not v[1] then
-            return
-        end
+        print(w)
         local obj = Tracker:FindObjectForCode(v[1])
         if obj then
-            if v[1]:sub(1, 1) == "@" then
+            if w:sub(1, 1) == "@" then
                 obj.AvailableChestCount = obj.AvailableChestCount - 1
             else
                 obj.Active = true
