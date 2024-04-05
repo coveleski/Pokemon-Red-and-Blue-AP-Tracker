@@ -27,6 +27,8 @@ function onClear(slot_data)
             if obj then
                 if v[1]:sub(1, 1) == "@" then
                     obj.AvailableChestCount = obj.ChestCount
+                elseif obj.Type == 'progressive' then
+                    obj.CurrentStage = 0
                 else
                     obj.Active = false
                 end
@@ -66,6 +68,38 @@ function onClear(slot_data)
         return
     end
 
+    --get missing and checked locations
+    --loop over all pokedex location IDs and if not in missing/checked,
+    -- store then loop over and set each stage to disbled
+    missing = Archipelago.MissingLocations
+    locations = Archipelago.CheckedLocations
+    dex_checks = {}
+    for _,v in pairs(missing) do
+        dex_checks[v] = true
+        -- table.insert(locations, v)
+    end
+    for _,v in pairs(locations) do
+        dex_checks[v] = true
+        -- table.insert(locations, v)
+    end
+    for i=0, 151 do 
+        n = i + 172000549
+        d = dex_checks[n]
+        -- print('i: '..i.. 'd: '.. d)
+        if not d then
+            l = LOCATION_MAPPING[n]
+            obj = Tracker:FindObjectForCode(l[1])
+            if obj then
+                obj.CurrentStage = 2
+            end
+        end
+
+    end
+    for i,v in pairs(locations) do
+        print('i: ' .. i..'v:' .. v)
+    end
+
+    
     if slot_data['split_card_key'] then
         local obj = Tracker:FindObjectForCode("op_cardkey")
         if obj then
@@ -85,6 +119,20 @@ function onClear(slot_data)
             obj.AcquiredCount = slot_data['second_fossil_check_condition']
         end
     end
+
+    if slot_data['route_22_gate_condition'] then
+        local obj = Tracker:FindObjectForCode("rt22_digit")
+        if obj then
+            obj.CurrentStage = slot_data['route_22_gate_condition']
+        end
+    end
+    if slot_data['victory_road_condition'] then
+        local obj = Tracker:FindObjectForCode("vr_digit")
+        if obj then
+            obj.CurrentStage = slot_data['victory_road_condition']
+        end
+    end
+  
     if slot_data['require_item_finder'] then
         local obj = Tracker:FindObjectForCode("op_if")
         if obj then
@@ -448,12 +496,15 @@ function onLocation(location_id, location_name)
     if not v[1] then
         return
     end
+
     for _,w in ipairs(v) do
         print(w)
         local obj = Tracker:FindObjectForCode(w)
         if obj then
             if w:sub(1, 1) == "@" then
                 obj.AvailableChestCount = obj.AvailableChestCount - 1
+            elseif obj.Type == 'progressive' then
+                obj.CurrentStage = obj.CurrentStage + 1
             else
                 obj.Active = true
             end
