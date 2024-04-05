@@ -76,14 +76,14 @@
            {
                 
                     "type":"text",
-                    "text": "Pool-Increasers"
+                    "text": "Pool-Size Changes"
                 },
                 {
                     "type": "itemgrid",
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-					["op_hid", "op_exk", "op_prize", "op_trn", "op_dexsanity", "stonesanity"]
+					["op_hid", "op_exk", "op_prize", "op_trn", "op_dexsanity", "stonesanity", "op_keyonly"]
                     ]
                 },
            {
@@ -98,62 +98,8 @@
                     "rows": [
 					["op_if", "op_bike_skips", "op_pokedoll_skip", "op_dark_rock_tunnel"]
                     ]
-                }, {
-                    "type":"itemgrid",
-                    "orientation": "vertical",
-                    "rows": [["rt22", "badge_req", "rt22_digit", "", "vr", "badge_req", "vr_digit"]]
-                },						
-
-            {
-                
-                    "type":"text",
-                    "text": "Elite 4 Requirements"
-                },
-                {
-                    "type": "itemgrid",
-                    "orientation": "vertical",
-                    "h_alignment": "left",
-                    "rows": [
-                        ["badge_req","e4b_digit","","","key_req","e4k_digit1","e4k_digit2"],
-                        ["dex_req","e4p_digit1", "e4p_digit2","e4p_digit3"]
-                    ]
-                },
-                {
-                    "type":"text",
-                    "text": "Cerulean Cave Requirements"
-                },
-                {
-                    "type": "itemgrid",
-                    "orientation": "vertical",
-                    "h_alignment": "left",
-                    "rows": [["badge_req","ccaveB_digit","","","key_req","ccaveK_digit1","ccaveK_digit2"]]
-                
-            },
-            {
-                "type": "group",
-                "header": "Free Fly",
-                "content": [
-                    {
-
-                        "type": "item",
-                        "item": "freefly",
-                        "v_alignment": "top",
-                        "h_alignment": "center",
-                        "item_size": "305,40"
-                        
-                    },
-                    {
-        
-                        "type": "item",
-                        "item": "freeflymap",
-                        "v_alignment": "top",
-                        "h_alignment": "center",
-                        "item_size": "305,40"
-                        
-                    }
+                }
                 ]
-            }
-        ]
     },     "dex": {
         "type": "array",
         "orientation": "vertical",
@@ -182,6 +128,80 @@
                     ["mew","","","","","","","","","","pokemon"]
                 ]
             }
+        ]
+    },
+    "bottom": {
+        "type": "array",
+        "orientation": "horizontal",
+        "background": "#212121",
+        "margin": "0 0 0 0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Victory Road Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["rt22","","rt22_digit"],
+                        ["vr","", "vr_digit"]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Elite 4 Requirements",
+                "dock": "top",
+                "content":                 {
+                    "type": "itemgrid",
+                    "orientation": "vertical",
+                    "h_alignment": "left",
+                    "rows": [
+                        ["badge_req","e4b_digit","","","key_req","e4k_digit1","e4k_digit2"],
+                        ["dex_req","e4p_digit1", "e4p_digit2","e4p_digit3"]
+                    ]
+                
+                }
+            },
+                {
+                    "type": "group",
+                    "header": "Cerulean Cave Requirements",
+                    "dock": "top",
+                    "content":                 {
+                        "type": "itemgrid",
+                        "orientation": "vertical",
+                        "h_alignment": "left",
+                        "rows": [["badge_req","ccaveB_digit","","","key_req","ccaveK_digit1","ccaveK_digit2"]]
+                    
+                    }
+                },
+                {
+                "type": "group",
+                "header": "Free Fly",
+                "content": [
+                    {
+
+                        "type": "item",
+                        "item": "freefly",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                        
+                    },
+                    {
+        
+                        "type": "item",
+                        "item": "freeflymap",
+                        "v_alignment": "top",
+                        "h_alignment": "center",
+                        "item_size": "305,40"
+                        
+                    }
+                ]
+            }
+        
         ]
     }
 }
