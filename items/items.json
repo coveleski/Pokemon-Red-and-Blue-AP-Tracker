@@ -3977,7 +3977,16 @@
         "type": "toggle",
         "img": "images/rt22.png",
         "codes": "rt22_req",
-        "initial_active_state": "true"
+        "initial_active_state": "true",
+		"allow_disabled": false
+    },
+    {
+        "name": "",
+        "type": "toggle",
+        "img": "images/vg.png",
+        "codes": "vg_req",
+        "initial_active_state": "true",
+		"allow_disabled": false
     },
     {
         "name": "",
@@ -4018,10 +4027,48 @@
     },
     {
         "name": "",
+        "type": "progressive",
+        "codes": "vg_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+
+        ]
+
+    },
+    {
+        "name": "",
         "type": "toggle",
         "img": "images/vr.png",
         "codes": "vr_req",
-        "initial_active_state": "true"
+        "initial_active_state": "true",
+		"allow_disabled": false
     },
     {
         "name": "",
@@ -4425,19 +4472,22 @@
         "type": "toggle",
         "img": "images/poke.png",
         "codes": "dex_req",
-        "initial_active_state": "true"
+        "initial_active_state": "true",
+		"allow_disabled": false
     },      {
         "name": "",
         "type": "toggle",
         "img": "images/rainbow.png",
         "codes": "badge_req",
-        "initial_active_state": "true"
+        "initial_active_state": "true",
+		"allow_disabled": false
     },
     {
         "name": "",
         "type": "toggle",
         "img": "images/mansionkey.png",
         "codes": "key_req",
-        "initial_active_state": "true"
+        "initial_active_state": "true",
+		"allow_disabled": false
     }
 ]
