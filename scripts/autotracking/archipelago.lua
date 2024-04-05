@@ -450,7 +450,7 @@ function onLocation(location_id, location_name)
     end
     for _,w in ipairs(v) do
         print(w)
-        local obj = Tracker:FindObjectForCode(v[1])
+        local obj = Tracker:FindObjectForCode(w)
         if obj then
             if w:sub(1, 1) == "@" then
                 obj.AvailableChestCount = obj.AvailableChestCount - 1
