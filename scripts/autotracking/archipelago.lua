@@ -111,8 +111,7 @@ function onClear(slot_data)
             obj.CurrentStage = tmp
         end
     end
-	end
-	end
+
     if slot_data['second_fossil_check_condition'] then
         local obj = Tracker:FindObjectForCode("op_fos")
         if obj then
