@@ -3520,6 +3520,12 @@
                 "access_rules": ["$saffron,fuji"],
                 "sections": [
                     {
+                        "name": "1F Receptionist",
+                        "item_count": 1,
+                        "access_rules": ["silph"],
+						"visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+                    },
+                    {
                         "name": "2F Woman",
                         "item_count": 1,
 						"visibility_rules": "op_keyonly_off"
@@ -3529,6 +3535,12 @@
                         "item_count": 1,
                         "access_rules": ["cardkey", "cardkey3f", "cardkey9f","cardkey_progressive:2"],
 						"visibility_rules": "op_keyonly_off"
+                    },
+                    {
+                        "name": "4F Hostage",
+                        "item_count": 1,
+                        "access_rules": ["cardkey", "cardkey4f", "cardkey_progressive:3"],
+						"visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
                     },
                     {
                         "name": "4F Card Key Items",
@@ -3548,10 +3560,21 @@
 						"visibility_rules": "op_keyonly_off"
                     },
                     {
+                        "name": "5F Hostage",
+                        "item_count": 1,
+                        "access_rules": ["cardkey", "cardkey5f", "cardkey_progressive:4"],
+						"visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+                    },
+                    {
                         "name": "5F Northwest Item (Card Key)",
                         "item_count": 1,
                         "access_rules": ["cardkey", "cardkey5f", "cardkey_progressive:4"],
 						"visibility_rules": "op_keyonly_off"
+                    },
+                    {
+                        "name": "6F Hostage",
+                        "item_count": 1,
+						"visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
                     },
                     {
                         "name": "6F Card Key Items",
@@ -3565,21 +3588,50 @@
 						"visibility_rules": "op_keyonly_off"
                     },
                     {
+                        "name": "7F Hostage",
+                        "item_count": 1,
+                        "access_rules": ["cardkey", "cardkey7f", "cardkey_progressive:6"],
+						"visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+                    },
+                    {
                         "name": "7F East Item (Card Key)",
                         "item_count": 1,
                         "access_rules": ["cardkey", "cardkey7f", "cardkey_progressive:6"],
 						"visibility_rules": "op_keyonly_off"
                     },
                     {
+                        "name": "8F Hostage",
+                        "item_count": 1,
+						"visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+                    },
+                    {
+                        "name": "9F Nurse",
+                        "item_count": 1,
+                        "access_rules": ["itemfinder,cardkey","op_if_off,cardkey", "op_if_off,cardkey9f", "itemfinder,cardkey9f", "op_if_off,cardkey_progressive:8","itemfinder,cardkey_progressive:8"],                        
+						"visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+                    },
+                    {
                         "name": "9F Nurse Bed (Card Key) Hidden",
                         "item_count": 1,
-                        "access_rules": ["itemfinder,cardkey","op_if_off,cardkey", "op_if_off,cardkey9f", "itemfinder,cardkey9f", "op_if_off,cardkey_progressive:2","itemfinder,cardkey_progressive:2"],
+                        "access_rules": ["itemfinder,cardkey","op_if_off,cardkey", "op_if_off,cardkey9f", "itemfinder,cardkey9f", "op_if_off,cardkey_progressive:8","itemfinder,cardkey_progressive:8"],
                         "visibility_rules": ["op_hid_on"]
                     },
                     {
                         "name": "10F Items",
                         "item_count": 3,
 						"visibility_rules": "op_keyonly_off"
+                    },
+                    {
+                        "name": "10F Hostage",
+                        "item_count": 1,
+                        "access_rules": ["cardkey", "cardkey10f", "cardkey_progressive:9"],
+						"visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
+                    },
+                    {
+                        "name": "11F Secretary",
+                        "item_count": 1,
+                        "access_rules": ["silph"],
+						"visibility_rules": ["op_cardkey_prog", "op_cardkey_split"]
                     },
                     {
                         "name": "11F Silph Co President",

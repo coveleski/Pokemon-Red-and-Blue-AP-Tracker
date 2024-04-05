@@ -553,6 +553,17 @@ LOCATION_MAPPING = {
     [172000546] = {"@World/Celadon Game Corner/Near Hooked Guy Hidden Coins"},
     [172000547] = {"@World/Celadon Game Corner/End of Horizontal Machine Row Hidden Coins"},
     [172000548] = {"@World/Celadon Game Corner/Front of Horizontal Machine Row Hidden Coins"},
+
+    [172000700] = {"@World/Silph Co/1F Receptionist"},
+    [172000701] = {"@World/Silph Co/4F Hostage"},
+    [172000702] = {"@World/Silph Co/5F Hostage"},
+    [172000703] = {"@World/Silph Co/6F Hostage"},
+    [172000704] = {"@World/Silph Co/7F Hostage"},
+    [172000705] = {"@World/Silph Co/8F Hostage"},
+    [172000706] = {"@World/Silph Co/9F Nurse"},
+    [172000707] = {"@World/Silph Co/10F Hostage"},
+    [172000708] = {"@World/Silph Co/11F Secretary"},
+
     [172000549] = {"bulbasaur"},
     [172000550] = {"ivysaur"},
     [172000551] = {"venusaur"},
