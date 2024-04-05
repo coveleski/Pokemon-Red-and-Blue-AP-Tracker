@@ -3971,7 +3971,95 @@
                 "name": ""
             }
         ]
-    },     {
+    },
+    {
+        "name": "",
+        "type": "toggle",
+        "img": "images/rt22.png",
+        "codes": "rt22_req",
+        "initial_active_state": "true"
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "rt22_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+
+        ]
+
+    },
+    {
+        "name": "",
+        "type": "toggle",
+        "img": "images/vr.png",
+        "codes": "vr_req",
+        "initial_active_state": "true"
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "vr_digit",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/d0.png"
+            },
+            {
+                "img": "/images/d1.png"
+            },
+            {
+                "img": "/images/d2.png"
+            },
+            {
+                "img": "/images/d3.png"
+            },
+            {
+                "img": "/images/d4.png"
+            },
+            {
+                "img": "/images/d5.png"
+            },
+            {
+                "img": "/images/d6.png"
+            },
+            {
+                "img": "/images/d7.png"
+            },
+            {
+                "img": "/images/d8.png"
+            }
+
+        ]
+
+    },    {
         "name": "",
         "type": "progressive",
         "codes": "e4b_digit",

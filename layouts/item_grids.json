@@ -145,8 +145,8 @@
                     "orientation": "vertical",
                     "h_alignment": "left",
                     "rows": [
-                        ["rt22","","rt22_digit"],
-                        ["vr","", "vr_digit"]
+                        ["rt22_req","badge_req","rt22_digit"],
+                        ["vr_req", "badge_req","vr_digit"]
                     ]
                 }
             },
