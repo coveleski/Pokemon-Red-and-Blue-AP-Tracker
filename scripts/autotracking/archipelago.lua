@@ -111,6 +111,7 @@ function onClear(slot_data)
             obj.CurrentStage = tmp
         end
     end
+end
 
     if slot_data['second_fossil_check_condition'] then
         local obj = Tracker:FindObjectForCode("op_fos")
@@ -518,7 +519,7 @@ function onLocation(location_id, location_name)
         end
     end
 end
-
+end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
