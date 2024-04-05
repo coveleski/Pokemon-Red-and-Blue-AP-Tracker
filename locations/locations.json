@@ -2981,7 +2981,7 @@
                     {
                         "name": "​Koga",
                         "item_count": 1,
-						"visibility_rules": "op_keyonly_on",
+						"visibility_rules": "op_keyonly_on"
                     }
                 ],
                 "map_locations": [
@@ -3410,7 +3410,7 @@
                         "item_count": 7,
                         "access_rules": ["secretkey"],
                         "visibility_rules": ["op_trn_on"],
-			"clear_as_group": false
+		            	"clear_as_group": false
                     },
                     {
                         "name": "Blaine",
@@ -3422,7 +3422,7 @@
                         "name": "​Blaine",
                         "item_count": 1,
                         "access_rules": ["secretkey"],
-						"visibility_rules": "op_keyonly_on",
+						"visibility_rules": "op_keyonly_on"
                     }
                 ],
                 "map_locations": [
@@ -3733,7 +3733,7 @@
                     },
                     {
                         "name": "B4F Grunt Item",
-                        "item_count": 1,
+                        "item_count": 1
                     },
                     {
                         "name": "B4F Northwest Item",
