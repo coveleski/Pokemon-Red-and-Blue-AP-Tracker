@@ -1300,7 +1300,7 @@
             },
             {
                 "name": "Route 23",
-                "access_rules": ["$victoryroad,$cansurf"],
+                "access_rules": ["$rt23,$cansurf", "$flyindigo,$canstrength,$cansurf,$victoryroad"],
                 "sections": [
                     {
                         "name": "On Island Hidden",
@@ -4145,7 +4145,7 @@
             },
             {
                 "name": "Victory Road",
-                "access_rules": ["$cansurf,$victoryroad,$canstrength","$flyindigo,$canstrength"],
+                "access_rules": ["$rt23,$cansurf,$victoryroad,$canstrength","$flyindigo,$canstrength"],
                 "sections": [
                     {
                         "name": "1F Top Item",
