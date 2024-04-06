@@ -156,6 +156,9 @@ function key_items()
     if has("bike") then
         amt = amt + 1
     end
+    if has("pokeflute") then
+        amt = amt + 1
+    end
     if has("silphscope") then
         amt = amt + 1
     end
