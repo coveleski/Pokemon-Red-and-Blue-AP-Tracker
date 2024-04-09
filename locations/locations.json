@@ -1776,7 +1776,7 @@
                         "item_count": 6,
                         "visibility_rules": ["op_trn_on"],
 						"clear_as_group": false,
-                        "access_rules": ["$celadonnoflash,[op_dark_rock_tunnel_on],bike,pokeflute","$celadon,bike,pokeflute","$fuchsianoflash,[op_dark_rock_tunnel_on],bike","$fuchsia,bike"]
+                        "access_rules": ["$celadonnoflash,[op_dark_rock_tunnel_on],$bike,pokeflute","$celadon,$bike,pokeflute","$fuchsianoflash,[op_dark_rock_tunnel_on],$bike","$fuchsia,$bike"]
                     },
                     {
                         "name": "House Woman",
