@@ -88,12 +88,13 @@ function onClear(slot_data)
 		-- table.insert(locations, v)
 	end
 
-	for i = 0, 151 do
+	for i = 0, 150 do
 		n = i + 172000549
 		d = dex_checks[n]
 		-- print('i: '..i.. 'd: '.. d)
 		if not d then
 			l = LOCATION_MAPPING[n]
+			print(n)
 			obj = Tracker:FindObjectForCode(l[1])
 			if obj then
 				obj.CurrentStage = 2
