@@ -45,7 +45,7 @@ function canfly()
     elseif has("op_hm_off") then
         badge = true
     end
-    return ((has("fly") or has("flute")) and badge)
+    return has("fly") and badge
 end
 
 function cansurf()
@@ -65,7 +65,7 @@ function cansurf()
     elseif has("op_hm_off") then
         badge = true
     end
-    return ((has("surf") or has("flippers")) and badge)
+    return has("surf") and badge
 end
 
 function canstrength()
@@ -85,7 +85,7 @@ function canstrength()
     elseif has("op_hm_off") then
         badge = true
     end
-    return ((has("strength") or has("mitts")) and badge)
+    return has("strength") and badge
 end
 
 function canflash()
@@ -105,7 +105,7 @@ function canflash()
     elseif has("op_hm_off") then
         badge = true
     end
-    return ((has("flash") or has("lamp")) and badge)
+    return has("flash") and badge
 end
 
 function guard()
@@ -123,32 +123,7 @@ function guardnoflash()
 end
 
 function badges()
-    local amt = 0
-    if has("bb") then
-        amt = amt + 1
-    end
-    if has("cb") then
-        amt = amt + 1
-    end
-    if has("tb") then
-        amt = amt + 1
-    end
-    if has("rb") then
-        amt = amt + 1
-    end
-    if has("mb") then
-        amt = amt + 1
-    end
-    if has("sb") then
-        amt = amt + 1
-    end
-    if has("vb") then
-        amt = amt + 1
-    end
-    if has("eb") then
-        amt = amt + 1
-    end
-    return amt
+    return Tracker:ProviderCountForCode('badge')
 end
 
 function key_items()
@@ -539,4 +514,9 @@ end
 
 function cinnabar()
     return (flycinnabar() or cansurf())
+end
+
+
+function canflyto(location)
+    return canfly() and has("fly_"..location)
 end
