@@ -428,7 +428,8 @@ function cerulean()
     rt3() or
     flycerulean() or
     flyvermillion() or
-    (saffron() and guard())
+    (saffron() and guard()) or
+    cancut()
     )
 end
 
